@@ -1,0 +1,105 @@
+/**********************************/
+/* GENERAL REUSABLE */
+/**********************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 16px / 10px = 62.5% */
+  /* 1rem = 10px */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid-2-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-4-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-col-gap-30 {
+  column-gap: 3rem;
+}
+
+.grid-col-gap-70 {
+  column-gap: 7rem;
+}
+
+.special-heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8.6rem;
+}
+
+.special-heading {
+  font-size: 4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  color: #353235;
+  margin-bottom: 2.4rem;
+}
+
+.special-heading-info {
+  max-width: 55rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  color: #777;
+  line-height: 2;
+}
+
+.special-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3.6rem;
+}
+
+.line {
+  height: 2px;
+  width: 5rem;
+  background-color: #353235;
+}
+
+.circle {
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 50%;
+  border: 2px solid #353235;
+}
+
+.switch-page-box {
+  display: flex;
+  gap: 1rem;
+}
+
+.switch-page-round {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.selected-switch-page {
+  background-color: #02bced;
+  border: none;
+}

@@ -1,0 +1,536 @@
+/********************************************/
+/* BELOW 1328 PIXELS (small laptops) */
+/********************************************/
+@media (max-width: 83em) {
+  html {
+    /* 9px / 16px = 0.5625 */
+    /* 1rem = 9px */
+    font-size: 56.25%;
+  }
+
+  .features-box {
+    padding: 4rem;
+  }
+
+  .feature-img {
+    height: 80%;
+  }
+
+  .About-img {
+    width: 60%;
+  }
+}
+
+/********************************************/
+/* BELOW 1200 PIXELS (landscape Tablets) */
+/********************************************/
+@media (max-width: 75em) {
+  .special-heading {
+    font-size: 3.6rem;
+  }
+
+  .hero-heading-text {
+    font-size: 2.4rem;
+  }
+
+  .hero-description-text {
+    font-size: 1.4rem;
+  }
+
+  .service-heading-text {
+    font-size: 1.8rem;
+  }
+
+  .service-heading-description {
+    font-size: 1.4rem;
+  }
+
+  .service-icon {
+    font-size: 3.6rem;
+  }
+
+  .quote-text {
+    font-size: 2.6rem;
+  }
+
+  .Pricing-features {
+    padding: 0 4rem;
+  }
+}
+
+/********************************************/
+/* BELOW 944 PIXELS (Tablets) */
+/********************************************/
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 */
+    font-size: 50%;
+  }
+
+  .special-heading {
+    font-size: 3.2rem;
+  }
+
+  .hero-text-box {
+    padding: 3rem;
+  }
+
+  .hero-heading-text {
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero-text {
+    margin-left: 10%;
+  }
+
+  .features-heading {
+    font-size: 2.2rem;
+    margin-bottom: 4rem;
+  }
+
+  .feature-img {
+    height: 70%;
+  }
+
+  .about-stat {
+    padding: 8rem 0;
+  }
+
+  .number {
+    font-size: 4.2rem;
+  }
+
+  .testimonials-skills-heading {
+    margin-bottom: 2.4rem;
+  }
+
+  .testimonials-skills-heading-info {
+    font-size: 1.4rem;
+  }
+
+  .testimonial-box {
+    gap: 4rem;
+  }
+
+  .testimonial-text {
+    font-size: 1.4rem;
+  }
+
+  .Pricing-val {
+    font-size: 1.8rem;
+  }
+
+  .Pricing-val span {
+    font-size: 5rem;
+  }
+
+  .Pricing-val::before {
+    font-size: 2.4rem;
+  }
+
+  .Pricing-features {
+    padding: 0 3rem;
+  }
+
+  .features-text {
+    font-size: 1.5rem;
+  }
+
+  .pricing-contact-text {
+    font-size: 1.8rem;
+  }
+
+  .subscribe-container {
+    padding: 8rem 4rem;
+    gap: 4.6rem;
+  }
+
+  .subscribe-text-info {
+    font-size: 1.6rem;
+    line-height: 2;
+  }
+}
+
+/********************************************/
+/* BELOW 752 PIXELS (Small Tablets) */
+/********************************************/
+@media (max-width: 47em) {
+  .special-heading {
+    font-size: 3rem;
+  }
+
+  .special-heading-info {
+    font-size: 1.8rem;
+  }
+
+  .grid-2-cols,
+  .grid-4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-col-gap-30 {
+    column-gap: 4rem;
+  }
+
+  .line {
+    width: 4rem;
+  }
+
+  .logo {
+    height: 5rem;
+  }
+
+  .hero-text-box {
+    max-width: 100%;
+    justify-content: flex-start;
+    padding: 4rem;
+  }
+
+  .hero-text {
+    margin-left: 0;
+  }
+
+  .hero-heading-text {
+    font-size: 3.4rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .hero-description-text {
+    font-size: 1.6rem;
+  }
+
+  .arrow-icon {
+    display: none;
+  }
+
+  .service {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-text-box {
+    text-align: center;
+  }
+
+  .service-heading-text {
+    font-size: 2rem;
+  }
+
+  .service-heading-description {
+    font-size: 1.7rem;
+  }
+
+  .service-icon {
+    font-size: 4.8rem;
+  }
+
+  .features-box {
+    width: 100%;
+    padding: 4rem;
+  }
+
+  .feature-img {
+    display: none;
+  }
+
+  .features-heading {
+    font-size: 2.4rem;
+    margin-bottom: 5rem;
+  }
+
+  .features-text {
+    font-size: 1.6rem;
+  }
+
+  .Portfolio-imgs-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .above-video-box {
+    padding: 4rem 0;
+  }
+
+  .above-video-box p:first-child {
+    font-size: 2rem;
+  }
+
+  .portfolio-btn-vid {
+    font-size: 1.5rem;
+  }
+
+  .About-img {
+    width: 90%;
+  }
+
+  .stat {
+    margin-bottom: 4rem;
+  }
+
+  .about-icon {
+    font-size: 3rem;
+  }
+
+  .number {
+    font-size: 6rem;
+  }
+
+  .stat-type {
+    font-size: 2rem;
+  }
+
+  .stat-container {
+    padding: 4rem 3rem;
+  }
+
+  .testimonials {
+    margin-bottom: 6rem;
+  }
+
+  .testimonial-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonials-skills-heading {
+    font-size: 2.4rem;
+  }
+
+  .testimonials-skills-heading-info {
+    font-size: 2rem;
+  }
+
+  .testimonial-text {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .testimonial-img {
+    height: 12rem;
+  }
+
+  .testimonial-name {
+    font-size: 1.6rem;
+  }
+
+  .skill-heading {
+    font-size: 1.8rem;
+  }
+
+  .skill-per-content {
+    font-size: 1.8rem;
+  }
+
+  .pricing-box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4rem;
+  }
+
+  .Pricing-val::before {
+    font-size: 2.6rem;
+    left: 25%;
+  }
+
+  .Pricing-features {
+    padding: 0 6rem;
+  }
+
+  .subscribe-container {
+    flex-direction: column;
+  }
+
+  .subscribe-box {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 0;
+  }
+
+  .subscribe-mail-box {
+    flex-grow: 1;
+  }
+
+  .subscribe-mail-box form {
+    flex-grow: 1;
+  }
+
+  .subscribe-mail-box form input {
+    width: 100%;
+  }
+
+  .contact-info-heading {
+    margin-bottom: 2rem;
+  }
+
+  .telphone-box {
+    margin-bottom: 6rem;
+  }
+
+  .footer-heading {
+    font-size: 2rem;
+  }
+
+  .page-rights {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    padding: 4rem 0;
+  }
+
+  /* mobile navigation */
+  .btn-menu-nav {
+    display: block;
+    margin-left: auto;
+  }
+
+  .search-icon,
+  .menu-icon {
+    font-size: 3rem;
+  }
+
+  .navigation-bar span {
+    height: 4rem;
+  }
+
+  .nav-list {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 14rem;
+    left: 0;
+    z-index: 999;
+    flex-direction: column;
+    display: none;
+  }
+
+  .navigation-bar {
+    padding: 4rem 0;
+  }
+
+  .nav-list-item a:link,
+  .nav-list-item a:visited {
+    font-size: 1.8rem;
+    /* padding-left: 2rem; */
+    padding: 1.6rem 0 1.6rem 1.6rem;
+    width: 100%;
+  }
+
+  .nav-list-item:not(:last-child),
+  .nav-list-item:last-child {
+    margin-right: 0;
+  }
+
+  .navigation-bar .btn-menu-nav:hover + ul {
+    display: block;
+  }
+}
+
+/********************************************/
+/* BELOW 544 PIXELS (Phones) */
+/********************************************/
+@media (max-width: 34em) {
+  .grid-4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .special-heading-info {
+    font-size: 1.6rem;
+  }
+
+  .hero-heading-text {
+    font-size: 2.6rem;
+  }
+
+  .hero-description-text {
+    font-size: 1.4rem;
+  }
+
+  .service-heading-description {
+    font-size: 1.6rem;
+  }
+
+  .number {
+    font-size: 5.2rem;
+  }
+
+  .about-icon {
+    font-size: 2.6rem;
+  }
+
+  .stat-type {
+    font-size: 1.8rem;
+  }
+
+  .testimonials-skills-heading-info {
+    font-size: 1.6rem;
+  }
+
+  .testimonial-text {
+    font-size: 1.6rem;
+  }
+
+  .quote-text {
+    font-size: 2.4rem;
+  }
+
+  .quote-author {
+    font-size: 1.4rem;
+  }
+
+  .Pricing-val {
+    font-size: 2.4rem;
+  }
+
+  .Pricing-val span {
+    font-size: 7rem;
+  }
+
+  .Pricing-val::before {
+    left: 30%;
+    transform: translateX(-50%);
+  }
+
+  .Pricing-type {
+    font-size: 2.4rem;
+  }
+
+  .Pricing-features {
+    padding: 0 10rem;
+  }
+
+  .features-text {
+    font-size: 1.8rem;
+  }
+
+  .buy-link:link,
+  .buy-link:visited {
+    font-size: 2rem;
+  }
+
+  .pricing-contact-text {
+    font-size: 1.8rem;
+  }
+
+  .pricing-contact-link:link,
+  .pricing-contact-link:visited {
+    font-size: 2rem;
+  }
+
+  .subscribe-text-info,
+  .subscribe-mail-box form input {
+    font-size: 1.8rem;
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 6rem;
+  }
+
+  .contact-info-box {
+    display: flex;
+    justify-content: space-around;
+  }
+}
